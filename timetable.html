@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weekly Class Schedule</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  
+    caption {
+      font-size: 1.5em;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+  
+    thead {
+      background-color: #4CAF50;
+      color: white;
+    }
+  
+    tfoot {
+      background-color: #ddd;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    th, td {
+      border: 1px solid #999;
+      padding: 10px;
+      text-align: center;
+    }
+  
+    tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  
+    tbody tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+  
+    tbody tr:hover {
+      background-color: #ffeeba; /* light yellow highlight */
+      cursor: pointer;
+    }
+  </style>
+  
+</head>
+<body>
+
+  <table>
+    <caption>Weekly Class Schedule</caption>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>8:00 - 9:00</td>
+        <td>English</td>
+        <td>Math</td>
+        <td>Biology</td>
+        <td>Geography</td>
+        <td>Chemistry</td>
+      </tr>
+      <tr>
+        <td>9:00 - 10:00</td>
+        <td rowspan="2">Math</td>
+        <td>English</td>
+        <td rowspan="2">Physics</td>
+        <td>History</td>
+        <td>English</td>
+      </tr>
+      <tr>
+        <td>10:00 - 11:00</td>
+        <td>ICT</td>
+        <td>Math</td>
+        <td>Biology</td>
+      </tr>
+      <tr>
+        <td>11:00 - 12:00</td>
+        <td>Yoruba</td>
+        <td>Social Studies</td>
+        <td>English</td>
+        <td>Technical Drawing</td>
+        <td>Computer</td>
+      </tr>
+      <tr>
+        <td>12:00 - 1:00</td>
+        <td colspan="5">Lunch Break</td>
+      </tr>
+      <tr>
+        <td>1:00 - 2:00</td>
+        <td>Fine Art</td>
+        <td>French</td>
+        <td>Music</td>
+        <td>Social Studies</td>
+        <td>Literature</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="6">End of Day</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
